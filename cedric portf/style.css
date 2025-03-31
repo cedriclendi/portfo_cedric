@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+body{
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Noto Sans'; 
+}
+nav a {
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0; 
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+nav .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+nav ul li:hover {
+    border-bottom-color: black;
+}
+.presentation img {
+    max-width: 100%;
+    height: auto;
+}
+.skills{
+    margin-top: 5%;
+
+
+}
+.skills img{
+    max-width: 100%;
+    height: auto;
+}
+.skills .skills-card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.skills .skills-card .image-gauche{
+    margin-right: 40px;
+
+}
+.skills .skills-card .image-gauche img{
+    height: 200px;
+    width: 400px;
+}
+footer{
+     margin-top: 5%;
+     display: flex;
+     flex-wrap: wrap ;
+     justify-content: space-around;
+     background-color: black;
+     color: white;
+}
